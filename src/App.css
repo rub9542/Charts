@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+.App .pie-data{
+  font-size: 42%;
+}
+.App .recharts-surface .recharts-pie{
+  height: 700px !important;
+  width: 700px !important;
+}
+.recharts-surface{
+  margin: auto;
+}
+.recharts-dot{
+  display: none;
+  
+}
+.progressbar-div{
+  display: flex;
+  justify-content: space-between;
+}
+.progressbar{
+  width: 90%;
+}
+.progress1 .progress-bar{
+  background-color:#3F64FA
+}
+.progress2 .progress-bar{
+  background-color:#8CD6A0
+}
+.progress3 .progress-bar{
+  background-color:#7335CB
+}
+.progress-title{
+  width: 90%;
+
+  display: flex;
+  justify-content: space-between;
+}
+.progress-title span{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+.chart{
+  display: flex;
+}
+.App-donut{
+  width: 50%;
+}
+.progress-div{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 42px;
+}
+.k-chart{
+  width: 50%;
+}
+.k-chart .svg{
+  width: 100%;
+    height: 100%;
+    overflow: hidden;
+    left: 0px;
+    top: -0.875px;
+}
+.progress-app, .table-chart{
+  margin-top: 30px ;
+  border: 1px solid;
+}
+.chart-area{
+  width: 100%;
+}
+.recharts-wrapper{
+  position: relative;
+  cursor: default;
+  width: 50%;
+  height: 500px;
+}
+.App .tui-chart-chartExportMenu-area{
+  display: none;
+}
+.App .tui-chart{
+  width: 100%;
+}
+.App .tui-chart svg{
+  width: 100%;
+}
+.table-chart{  
+  
+}
+.title{
+  font-size: 30px ;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
